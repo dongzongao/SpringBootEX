@@ -1,0 +1,13 @@
+server:
+  port: 9001
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        security:
+          debug
+jwt:
+  token:
+    secret:
+      dong
